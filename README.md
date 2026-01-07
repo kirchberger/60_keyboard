@@ -13,3 +13,11 @@ Remove the top row of keys since they are difficult to reach, and I never seem t
 Remove the dedicated caps lock key since I never seem to use it.
 
 Then ideally move the []\ keys so that they may be closer.
+
+# Hardware 
+
+Will be based on ESP32-S3
+
+Looking to make a 8x8 ish matrix
+Looking to use standard mechanical switch sockets for potential replacement in the future.
+one programming usb interface and one for connection.
