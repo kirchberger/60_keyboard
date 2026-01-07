@@ -21,3 +21,4 @@ Will be based on ESP32-S3
 Looking to make a 8x8 ish matrix
 Looking to use standard mechanical switch sockets for potential replacement in the future.
 one programming usb interface and one for connection.
+Also have a diode on each key so that ghosting is not an issue.
