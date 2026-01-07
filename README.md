@@ -18,7 +18,10 @@ Then ideally move the []\ keys so that they may be closer.
 
 Will be based on ESP32-S3
 
-Looking to make a 8x8 ish matrix
-Looking to use standard mechanical switch sockets for potential replacement in the future.
+Looking to make a 8x8 ish matrix depending on number of keys
+
+Looking to use standard MX mechanical switch sockets for potential replacement in the future. It seems the mill max sockets are the best option.
+
 one programming usb interface and one for connection.
+
 Also have a diode on each key so that ghosting is not an issue.
