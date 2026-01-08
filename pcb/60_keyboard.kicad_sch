@@ -2,9 +2,4205 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 60f4ab9d-718b-428d-904c-5042759d3860)
+	(uuid "60f4ab9d-718b-428d-904c-5042759d3860")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Switch:SW_MEC_5G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_MEC_5G"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5G single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5G_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_MEC_5G_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 57.15 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0db93952-4210-4a63-98a1-e84c9c4fbd7c")
+		(property "Reference" "SW38"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 57.15 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ba63dd0-c911-4d1e-85da-2f7ebe477c62")
+		)
+		(pin "4"
+			(uuid "786f975f-43a6-449c-98b7-bb088236cfe7")
+		)
+		(pin "2"
+			(uuid "bc91b45b-dbbe-4afe-a05d-4726e38564eb")
+		)
+		(pin "3"
+			(uuid "c133654e-d13e-44c2-9266-17018c4ecf9d")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 236.22 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c0a3a53-9f3c-4c9b-ae5f-7a5ce2a07098")
+		(property "Reference" "SW48"
+			(at 236.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 236.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 236.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 236.22 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a5c2f97-175e-4146-ac75-e5643e39cf2e")
+		)
+		(pin "4"
+			(uuid "cd74a163-e797-4f02-b483-221978c53386")
+		)
+		(pin "2"
+			(uuid "0ff930cb-ba36-4a9c-8f37-32b35fba2abd")
+		)
+		(pin "3"
+			(uuid "036d4e36-837c-453c-ad77-375a763eb046")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 39.37 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d9fe31c-7394-400b-81fb-450d1ae6c626")
+		(property "Reference" "SW13"
+			(at 39.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 39.37 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2548e839-7525-4ace-a6c9-cfea8e3768db")
+		)
+		(pin "4"
+			(uuid "c0c0a7c1-cd80-4545-a3a2-bb125f898f55")
+		)
+		(pin "2"
+			(uuid "2ef71d1d-b004-4c60-91b3-573ef1165f44")
+		)
+		(pin "3"
+			(uuid "82f764e2-d345-4bfe-a7d8-7f15dc4c62fa")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 236.22 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f120b02-a93f-4683-a6af-c9395352da65")
+		(property "Reference" "SW12"
+			(at 236.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 236.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77ccb9d5-c1bc-456c-816c-14e40a2d8e31")
+		)
+		(pin "4"
+			(uuid "57b6fc31-e1df-41ce-a3f5-6c200310ecb4")
+		)
+		(pin "2"
+			(uuid "1653158e-bd6d-4fc0-9d60-0804fffd31bc")
+		)
+		(pin "3"
+			(uuid "3c0eb321-bbba-4856-907c-a8dfeba839fc")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 165.1 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "238dd171-1701-4e11-b2bf-82960e6b6707")
+		(property "Reference" "SW20"
+			(at 165.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 165.1 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffd856c8-3728-4397-a9b6-89e69fbf63a5")
+		)
+		(pin "4"
+			(uuid "f8d1cf01-6d85-4414-9a8c-d0f251df9944")
+		)
+		(pin "2"
+			(uuid "0d4da0c4-fab2-4cb8-a242-309c9f677f06")
+		)
+		(pin "3"
+			(uuid "3d0073b9-3a3d-4a56-baa7-e24303c3cb12")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 147.32 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23f54958-23d3-4bc3-9a6c-f3d9ac82260b")
+		(property "Reference" "SW19"
+			(at 147.32 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 147.32 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 147.32 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb586b76-bc2c-49f3-b172-d28f59f786dc")
+		)
+		(pin "4"
+			(uuid "0b614ad6-6f19-4999-a3ef-272250a1925a")
+		)
+		(pin "2"
+			(uuid "c0a7afe9-632a-494b-acb8-1592342f29e2")
+		)
+		(pin "3"
+			(uuid "2435f6ed-de19-4b88-94da-5d3dc67c8b18")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 182.88 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2417bf6a-ae45-4081-92b4-e155987e76e4")
+		(property "Reference" "SW45"
+			(at 182.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 182.88 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 182.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ea76d7a-4da8-4ce8-818a-3f9a9484fbde")
+		)
+		(pin "4"
+			(uuid "ca6589b1-d3fe-450b-be48-c19f1a9e13be")
+		)
+		(pin "2"
+			(uuid "950c7933-203f-4339-a8e8-9254c3ed048f")
+		)
+		(pin "3"
+			(uuid "cef1b057-dcef-4db4-8ffd-396cdf405744")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 110.49 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "265da465-61b8-4892-93fc-6fa8a03c64a5")
+		(property "Reference" "SW51"
+			(at 110.49 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 110.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54434efb-68d9-4d4d-96d6-fd5088b352ea")
+		)
+		(pin "4"
+			(uuid "f3a785c7-ab61-4f0e-abb9-974227c7f9e6")
+		)
+		(pin "2"
+			(uuid "a826afcb-d218-4274-be34-e47576e855ee")
+		)
+		(pin "3"
+			(uuid "86dd9b78-cbac-4fbb-b46a-1d55d7a4a071")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 218.44 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2abad587-a95c-4e2d-93e8-e06ea791ba69")
+		(property "Reference" "SW23"
+			(at 218.44 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 218.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d1a9811-a965-49a9-accb-5c8aae054d78")
+		)
+		(pin "4"
+			(uuid "23c68ad1-a053-4197-bed3-f80bcc051dcb")
+		)
+		(pin "2"
+			(uuid "baf74be4-9ccf-40d7-8245-3ca6654f8539")
+		)
+		(pin "3"
+			(uuid "fbc774f2-1721-42d7-8872-e5c92426c816")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 110.49 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c67e8ff-98bd-4060-8c55-135b88be4542")
+		(property "Reference" "SW29"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "757c3d08-5676-44df-9e0b-7063767601c6")
+		)
+		(pin "4"
+			(uuid "4d17f0e5-935d-42b8-b017-0d3728cef8f1")
+		)
+		(pin "2"
+			(uuid "6d566017-8288-4af5-a2e8-65967a6bde4b")
+		)
+		(pin "3"
+			(uuid "7ef34fa4-da29-479c-9a6a-082d9e14d7b2")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 236.22 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34f3aa2e-06e9-4670-ae25-b2a3f7550262")
+		(property "Reference" "SW24"
+			(at 236.22 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 236.22 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 236.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2a421e6-af71-4ecb-8f31-7dd23f2bc3ee")
+		)
+		(pin "4"
+			(uuid "e5f56e9e-21eb-4ace-af92-502cb605cdbe")
+		)
+		(pin "2"
+			(uuid "9f1666e7-0310-45ed-9459-34d8f3bc1863")
+		)
+		(pin "3"
+			(uuid "81d669c0-fbfb-4cb6-8d3d-06acb58c2e36")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 92.71 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37ba0b3d-d453-4bbc-9011-7d39d6a14d14")
+		(property "Reference" "SW40"
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 92.71 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 92.71 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eb58ee7-46fa-412a-a430-a405086ead09")
+		)
+		(pin "4"
+			(uuid "12cf9057-df62-48e9-a50b-db6d14fc3c6a")
+		)
+		(pin "2"
+			(uuid "d0f84916-c509-404f-8690-a4cb114a2d01")
+		)
+		(pin "3"
+			(uuid "6e0b1c1e-3885-4b39-9a5e-4ad8d21ea656")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 92.71 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c50d068-4b70-485e-a8e6-9e877cac2e79")
+		(property "Reference" "SW50"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 92.71 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1033211a-c99e-40a1-84c0-05b3a58fa240")
+		)
+		(pin "4"
+			(uuid "77cd47cf-05f3-445e-af46-db099b064971")
+		)
+		(pin "2"
+			(uuid "c0c3c4c2-b39c-4c02-9e4e-82cbbca6459a")
+		)
+		(pin "3"
+			(uuid "643e264e-bec8-45dd-926e-c42972f02520")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 182.88 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4502e44f-37ab-4b8f-8058-a5f8098ea513")
+		(property "Reference" "SW9"
+			(at 182.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 182.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 182.88 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42b8170a-2c78-4637-9be2-03fedfa84e2e")
+		)
+		(pin "4"
+			(uuid "43149bcc-c69f-4c7b-a71e-2ce0220b747b")
+		)
+		(pin "2"
+			(uuid "1add111f-4d7b-4995-b0a6-111e0ca6777a")
+		)
+		(pin "3"
+			(uuid "c01766e4-cd6f-4235-90e2-2cb1bef6bba2")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 128.27 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b275fb3-af43-42e7-b485-6ef763abccf2")
+		(property "Reference" "SW30"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 128.27 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 128.27 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07f10d31-d76d-48e7-9ef9-87965eb669ba")
+		)
+		(pin "4"
+			(uuid "5f076973-9109-4d22-ba11-e1332044e0f7")
+		)
+		(pin "2"
+			(uuid "fb941054-3770-4d0c-9829-476ba24fb5d1")
+		)
+		(pin "3"
+			(uuid "2e00ad16-9006-4c8c-ae9b-8bff77a1175d")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 74.93 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f66b027-3303-4c57-b0a4-a40ffa3f4f8d")
+		(property "Reference" "SW27"
+			(at 74.93 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 74.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 74.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d567403-51ed-4a1b-b7a6-2848df45f60d")
+		)
+		(pin "4"
+			(uuid "3376b3be-9ecd-4af0-921f-e94067055f5e")
+		)
+		(pin "2"
+			(uuid "b1bebb1b-cfe1-401f-91af-94ab8c94562c")
+		)
+		(pin "3"
+			(uuid "2f3ebb93-c74b-41bd-99d9-4979ed9e5b28")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 147.32 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5132e385-ef2c-4dc4-8ce0-84a60f717fe2")
+		(property "Reference" "SW7"
+			(at 147.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 147.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 147.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd6f39e6-73a4-4798-ab9d-c745244252d4")
+		)
+		(pin "4"
+			(uuid "b64aadb8-2e6e-4bda-8991-f8d55daaa34c")
+		)
+		(pin "2"
+			(uuid "fe3ddf9f-682f-4333-b4d0-44e4adbffe0d")
+		)
+		(pin "3"
+			(uuid "7190e79e-c765-436d-ad8b-2a4950f8800e")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 200.66 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f4b5d5e-3daa-413d-aa9d-610be6a5f1b2")
+		(property "Reference" "SW46"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 200.66 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 200.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf2b7d6-3964-4957-a576-f9edf19566c2")
+		)
+		(pin "4"
+			(uuid "ed29d167-a8b4-40ec-bf8a-2408f9e72cde")
+		)
+		(pin "2"
+			(uuid "93c8d95e-5c8c-45d7-bae6-10264159c4a7")
+		)
+		(pin "3"
+			(uuid "d1bfcb37-7d28-4c8b-bb11-1187fcadb673")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 200.66 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60020fc8-0aa5-422d-a7df-479bdea612e3")
+		(property "Reference" "SW34"
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 200.66 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "181ace20-940d-446c-9efc-38e21b25ab5e")
+		)
+		(pin "4"
+			(uuid "13baa3ca-a098-4f62-ab50-a54a5bc31ce5")
+		)
+		(pin "2"
+			(uuid "5510c725-9956-439d-959e-921909d7483e")
+		)
+		(pin "3"
+			(uuid "bfd8beb1-0d8d-4c1e-879e-c17cadf6d59c")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 200.66 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "673bab11-2ed6-4c3a-96f8-05b9f5ee3751")
+		(property "Reference" "SW54"
+			(at 200.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 200.66 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 200.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fdf7235-9fa0-434c-a407-28c7ca2caf0e")
+		)
+		(pin "4"
+			(uuid "271438d1-a28c-4939-8d11-3b3a881c2f02")
+		)
+		(pin "2"
+			(uuid "075860e6-e9b0-4be6-b5a8-d32ebe4c3c56")
+		)
+		(pin "3"
+			(uuid "f8ddded7-2941-4961-b67a-d2c044997716")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 147.32 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ab310ab-cebf-441b-b0f8-41d2c00df3a6")
+		(property "Reference" "SW31"
+			(at 147.32 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f79c806e-0676-4fe4-a40d-a6dbdd13c8c4")
+		)
+		(pin "4"
+			(uuid "f239a904-f560-42a5-b91f-877e4a1d8ed0")
+		)
+		(pin "2"
+			(uuid "4794f154-b64b-421b-bb8d-335bc219e36c")
+		)
+		(pin "3"
+			(uuid "698aa6b4-4166-4a76-be07-687d9e36f798")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 57.15 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ace8d9f-a20b-4e1c-a569-618527f873fd")
+		(property "Reference" "SW14"
+			(at 57.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 57.15 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c108797-58ab-4525-b787-15056ddf9963")
+		)
+		(pin "4"
+			(uuid "49ab24ae-c743-4805-a282-6d504d8a7293")
+		)
+		(pin "2"
+			(uuid "455d8fb2-7b33-4ba0-8ea5-51ee4b0a2c99")
+		)
+		(pin "3"
+			(uuid "610eed86-f958-4978-b9ea-8e3103d85501")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 165.1 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b2693ae-07c8-46ea-8323-db42f75d2200")
+		(property "Reference" "SW52"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 165.1 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 165.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6e38c9c-4925-4972-b5df-e8292d22f048")
+		)
+		(pin "4"
+			(uuid "e91ddb15-7efa-4c28-a7ea-4a835295443b")
+		)
+		(pin "2"
+			(uuid "aaad8b00-e597-4fdd-846b-611e26b14d03")
+		)
+		(pin "3"
+			(uuid "f95d8925-d2f0-4fee-a31b-ed503b5cc33b")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 128.27 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b71f6c0-4e1c-419f-b4df-97db568c0156")
+		(property "Reference" "SW42"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6c8c814-8267-4cc7-9308-f7333efb1366")
+		)
+		(pin "4"
+			(uuid "7835e238-456c-4a02-8a93-b1e268393c88")
+		)
+		(pin "2"
+			(uuid "b6b389e0-1693-4c35-81d2-4db519f02a30")
+		)
+		(pin "3"
+			(uuid "e35cca71-1b87-4af8-88b4-929fe2f9616c")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 218.44 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "748c3c94-483f-4b4e-bb14-0cb819cf7f0b")
+		(property "Reference" "SW35"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 218.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 218.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95c2dcd5-3201-453c-bd37-4f3ee80a88c3")
+		)
+		(pin "4"
+			(uuid "57cc60f0-f856-4f8d-ad72-77c1005a5178")
+		)
+		(pin "2"
+			(uuid "2488b39d-b80e-42bc-b90c-3574590f9a67")
+		)
+		(pin "3"
+			(uuid "e180fc9c-042c-4c55-9725-6b686652dd0b")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 200.66 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74988e7b-2b73-49fe-91f2-18602416a39b")
+		(property "Reference" "SW22"
+			(at 200.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 200.66 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 200.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8edee60-4c36-43c4-978c-f11ec50ea906")
+		)
+		(pin "4"
+			(uuid "533fe364-d7cf-4a51-8125-f2db96851815")
+		)
+		(pin "2"
+			(uuid "ed027962-4896-4b3a-8be2-894259ac2bf6")
+		)
+		(pin "3"
+			(uuid "785580ea-6ad9-4e50-b7a6-7c1bb7cde38c")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 110.49 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ed4d83-765f-4b6e-a5ad-6236be03031b")
+		(property "Reference" "SW41"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fb532d6-1810-4dda-8bcb-a2e92fd424cf")
+		)
+		(pin "4"
+			(uuid "b6e59814-d256-4409-9788-c4454f52897b")
+		)
+		(pin "2"
+			(uuid "1c7679fc-3104-4d93-bb6d-444d4a07801e")
+		)
+		(pin "3"
+			(uuid "79f012c6-2b9f-423d-8d81-88759962a84b")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 110.49 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78702bc0-b7b4-4776-ba88-2578b9bf097f")
+		(property "Reference" "SW5"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34cc39ae-c7ab-4fff-bf82-93a2dce12933")
+		)
+		(pin "4"
+			(uuid "31170a36-3b52-4d0f-935a-f8ed3323d731")
+		)
+		(pin "2"
+			(uuid "9d519563-541b-46ae-bc20-f3416980f5f8")
+		)
+		(pin "3"
+			(uuid "66284f50-de73-4fb5-b5a2-68b7477b3298")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 57.15 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ccf4d5a-1808-4705-bae9-24d140b7535c")
+		(property "Reference" "SW2"
+			(at 57.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 57.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 57.15 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 57.15 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bef8c7f-ce6e-42d2-881d-449e8b1bd12b")
+		)
+		(pin "4"
+			(uuid "fc5898ac-452e-4307-a472-fc3e57cecdd2")
+		)
+		(pin "2"
+			(uuid "bf4b82db-9e91-456e-9181-ad9579da5827")
+		)
+		(pin "3"
+			(uuid "e9c63426-5624-4236-b4b3-36025fcff882")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 92.71 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ddbe423-a1d8-4c1c-a147-feb80dff6b04")
+		(property "Reference" "SW28"
+			(at 92.71 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "263fe71b-e84a-4c0a-8d1a-87f7ea316bf8")
+		)
+		(pin "4"
+			(uuid "35635af2-513c-45c5-a3d2-30de22da2d3a")
+		)
+		(pin "2"
+			(uuid "a505b15e-0870-4ddb-8661-6c05d2585bfa")
+		)
+		(pin "3"
+			(uuid "78ba36e0-9691-4818-8ced-e30ed7aa4a26")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 182.88 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81ab8892-5e75-4598-8e12-8cb0f1bd08d8")
+		(property "Reference" "SW33"
+			(at 182.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 182.88 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 182.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12c708b1-cb86-49ca-af30-0a538d7886bd")
+		)
+		(pin "4"
+			(uuid "30af24f1-e2e8-4f66-9c54-0ae0b7c34b75")
+		)
+		(pin "2"
+			(uuid "200f0bc1-d8dc-4a20-b12e-eb7c5c2e125b")
+		)
+		(pin "3"
+			(uuid "0ff332d5-b2b0-420a-9754-b5ceafaf545d")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 218.44 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b348025-324f-4c7d-9038-db67b523101c")
+		(property "Reference" "SW47"
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 218.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de1d1ea0-b8c8-4ab8-bc50-5b80f4e44d4f")
+		)
+		(pin "4"
+			(uuid "c0cfe625-6cac-4815-b989-34e3031cdc32")
+		)
+		(pin "2"
+			(uuid "86e8d274-e2c7-4cc2-8c40-31baecc06059")
+		)
+		(pin "3"
+			(uuid "1c37d457-63b5-4d0a-b610-d87db560cc25")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 74.93 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d67de70-834b-4442-b26b-9eb1049e9db2")
+		(property "Reference" "SW39"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 74.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 74.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1caafca-f707-4da6-ab1e-a2f837fd9426")
+		)
+		(pin "4"
+			(uuid "3422f5b3-03be-495e-9c7d-d70ccd9892c1")
+		)
+		(pin "2"
+			(uuid "db92d97e-b472-46d1-88c3-4ff39c6c2865")
+		)
+		(pin "3"
+			(uuid "7743431e-44d3-472e-97e0-d825fa39a888")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 182.88 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96c5814f-7314-4783-bc12-215fe80efc6c")
+		(property "Reference" "SW21"
+			(at 182.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 182.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 182.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e9e6533-1663-4c10-87a0-7f884ceaf358")
+		)
+		(pin "4"
+			(uuid "63897f83-cf2a-45cb-a55e-cca92512bf11")
+		)
+		(pin "2"
+			(uuid "417ac298-df48-470e-a0b0-e0e17dcbc6e5")
+		)
+		(pin "3"
+			(uuid "83e6b0c3-cae2-43ec-bea9-abd84c8730e4")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 92.71 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "970a4518-dc0d-48b5-90f4-da6a9d8fbe30")
+		(property "Reference" "SW16"
+			(at 92.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 92.71 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 92.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea623f2f-ee14-4f78-a460-9efdc5bfd748")
+		)
+		(pin "4"
+			(uuid "722f3111-ded8-4ece-9e0b-c84df4f67193")
+		)
+		(pin "2"
+			(uuid "be4f5339-ba33-46d3-9743-cb9556d90026")
+		)
+		(pin "3"
+			(uuid "f8ba508d-3fc2-4d57-a062-e8fca03351b2")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 165.1 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a326c214-4f69-4afd-af8e-9bf2ed823024")
+		(property "Reference" "SW8"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90a7402d-f7c8-4c9e-8bd5-00492a603468")
+		)
+		(pin "4"
+			(uuid "40112133-90a1-4b9a-b835-4a2ca576c496")
+		)
+		(pin "2"
+			(uuid "e96c600b-a409-4f90-b66e-8cc302ef642f")
+		)
+		(pin "3"
+			(uuid "8aa53ec7-d223-42cf-89cb-19aa3eae0d53")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 92.71 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a63f99a9-eef0-49d9-83f7-e761db169888")
+		(property "Reference" "SW4"
+			(at 92.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 92.71 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 92.71 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3017803-fe8a-4079-9df3-3b110c05e3ee")
+		)
+		(pin "4"
+			(uuid "db64b11c-98e2-4615-8023-488e24f6817d")
+		)
+		(pin "2"
+			(uuid "ecd4e7e5-0ebf-4fc7-b026-ddbfc3657904")
+		)
+		(pin "3"
+			(uuid "80da26ba-2062-44cb-8eac-3db226d1cce8")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 147.32 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b00dfb37-4c16-415a-b125-73d731de92b4")
+		(property "Reference" "SW43"
+			(at 147.32 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5451406d-1f5d-4e68-bce1-2fd5d60fe69a")
+		)
+		(pin "4"
+			(uuid "b017a3b3-e30e-41ee-a8e1-3845399b582a")
+		)
+		(pin "2"
+			(uuid "ea23265c-78b6-4ddd-a195-828c6461efb3")
+		)
+		(pin "3"
+			(uuid "d53de09c-c89f-4d81-a918-730085fb3abf")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 218.44 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7852ae-2ff3-4a7a-aafb-bbecc3c14762")
+		(property "Reference" "SW11"
+			(at 218.44 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 218.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 218.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f1d9e5b-7ca5-410a-958c-3df2c1d8aa99")
+		)
+		(pin "4"
+			(uuid "78e80141-7520-4b64-83fe-f79292c3f182")
+		)
+		(pin "2"
+			(uuid "4275e5d7-e1e8-48df-a09a-5cc18cf8019c")
+		)
+		(pin "3"
+			(uuid "e9906119-6eb7-4738-8c98-fa53a3d6e327")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 182.88 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a88df6-58cd-4039-bfaf-6efae2f564e3")
+		(property "Reference" "SW53"
+			(at 182.88 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 182.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 182.88 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c2d3469-5bb9-428c-b604-6db285578d9e")
+		)
+		(pin "4"
+			(uuid "3610a90f-60d0-451b-bd87-968683947c29")
+		)
+		(pin "2"
+			(uuid "5d8e9814-ef51-42fd-a3fe-0ecc71843615")
+		)
+		(pin "3"
+			(uuid "f97e327b-ed36-4ffe-893f-04488de50bc9")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 39.37 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5dc5baa-23a7-45ac-b400-ca7cf198e1cf")
+		(property "Reference" "SW37"
+			(at 39.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 39.37 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 39.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9770ed9-da80-49ee-b33e-728128931a0f")
+		)
+		(pin "4"
+			(uuid "80622050-5250-499b-bf0b-71db611d73b9")
+		)
+		(pin "2"
+			(uuid "d53fe61c-1c9b-4c76-aba9-04209a0651b5")
+		)
+		(pin "3"
+			(uuid "9a8c6f76-3730-4e3b-8eba-85edb1f7ef39")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 110.49 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6b68fca-15d7-4ee3-8293-ca43a83f4f5e")
+		(property "Reference" "SW17"
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d42a458-8690-4f51-bb68-632f16e07e53")
+		)
+		(pin "4"
+			(uuid "1044f9e7-11a9-4f19-adc0-4fa51b08df28")
+		)
+		(pin "2"
+			(uuid "923be62e-4393-4f57-818a-d13d58f71b87")
+		)
+		(pin "3"
+			(uuid "2df89b97-2042-4bbe-8407-17307e7ceb23")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 200.66 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca32952d-01d6-48c5-a009-90f944b8f551")
+		(property "Reference" "SW10"
+			(at 200.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 200.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 200.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "626a76fd-b1b6-4a5c-b9da-c66341feda50")
+		)
+		(pin "4"
+			(uuid "1cf0b167-81db-468b-85e2-421e6ef2c4e0")
+		)
+		(pin "2"
+			(uuid "f6cc337f-c571-42bb-a61e-28ca67f22130")
+		)
+		(pin "3"
+			(uuid "55005bcb-d5f8-42fd-9e22-1ae3f47032c4")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 74.93 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdb02c68-951f-4b3f-9657-7dba65a352de")
+		(property "Reference" "SW49"
+			(at 74.93 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 74.93 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 74.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d62a09f-2faa-45f2-b4f0-c84dbddea116")
+		)
+		(pin "4"
+			(uuid "782dc3b4-001e-477e-b199-9fce0eed0f62")
+		)
+		(pin "2"
+			(uuid "d1fcab4a-b777-47dd-ab74-15849b59ac61")
+		)
+		(pin "3"
+			(uuid "e15c2c08-48c3-45be-936a-a2fad8c5a77d")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 128.27 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42191a0-cacb-4f09-900b-0221d6d504f1")
+		(property "Reference" "SW6"
+			(at 128.27 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47e0a7bd-42c0-4b20-ad50-cb0009757cf8")
+		)
+		(pin "4"
+			(uuid "c6bc52cc-ba85-43e8-8adb-f935bd64520b")
+		)
+		(pin "2"
+			(uuid "d80c3df2-4284-4077-b5a6-d37db0228100")
+		)
+		(pin "3"
+			(uuid "673259b0-d440-4f8c-8350-5b368b817bc7")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 74.93 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5145ec9-9fe6-4417-a655-c82a9b509dc0")
+		(property "Reference" "SW15"
+			(at 74.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 74.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 74.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76a11835-a672-4ed8-9ab3-f4477409dc81")
+		)
+		(pin "4"
+			(uuid "4955f7df-f789-47b3-9b89-7f4cc50e1a45")
+		)
+		(pin "2"
+			(uuid "330d7b61-d3a9-4d96-bf84-ed6256a5cc77")
+		)
+		(pin "3"
+			(uuid "84c49907-ce13-45f9-aa25-4770ac53030a")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 128.27 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd69ec7-f620-4972-a8e9-5b915dc82ffc")
+		(property "Reference" "SW18"
+			(at 128.27 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 128.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb543905-b7d1-4a22-80aa-7b40893b3456")
+		)
+		(pin "4"
+			(uuid "81853477-1f89-4a41-9948-629d328c39c2")
+		)
+		(pin "2"
+			(uuid "27d997ee-fefb-43b5-8220-8540eba53da5")
+		)
+		(pin "3"
+			(uuid "b7d4a758-8677-498d-9feb-6f341397e700")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 39.37 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3cca84f-9907-4de3-9b5c-a01030c2e0c8")
+		(property "Reference" "SW25"
+			(at 39.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 39.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a8640cf-38ee-43a2-876a-ccfe831a6971")
+		)
+		(pin "4"
+			(uuid "8cef1f0f-06ed-4e28-9422-46bf86898f1a")
+		)
+		(pin "2"
+			(uuid "6ba37524-0cc8-4f81-8cae-0ecc7e8970f5")
+		)
+		(pin "3"
+			(uuid "bcf43e86-03bf-403a-a679-a3f7643c4cd2")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 74.93 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea0a1974-42a0-4e11-802f-c241ad58ac9e")
+		(property "Reference" "SW3"
+			(at 74.93 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de4d396c-28af-4032-a999-7445ff2d445c")
+		)
+		(pin "4"
+			(uuid "781ce4a5-c1ca-4ca7-81c9-4b5e43142910")
+		)
+		(pin "2"
+			(uuid "7de88f2f-f1b3-4704-860f-8735f422b3ac")
+		)
+		(pin "3"
+			(uuid "523429b1-461c-4173-b817-49bfc8f0d877")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 165.1 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0b5ee02-9d02-4943-bbc8-a45a612219ee")
+		(property "Reference" "SW44"
+			(at 165.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 165.1 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5be4f505-5729-4807-b72d-f77222348256")
+		)
+		(pin "4"
+			(uuid "71c12559-01f9-4cb6-b4cc-23bc1861c881")
+		)
+		(pin "2"
+			(uuid "1cbe7c1d-a6ef-4fdb-96c2-1f4abf2371df")
+		)
+		(pin "3"
+			(uuid "4abd8b20-08e6-4de0-8bb5-5f79a6898cd5")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 39.37 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f30c4461-210c-4e75-8101-31e07f1deb82")
+		(property "Reference" "SW1"
+			(at 39.37 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b13217d-7cef-45da-be07-cee67e69d68c")
+		)
+		(pin "4"
+			(uuid "b182fc22-0ddd-4b79-88f0-46924bdbefa1")
+		)
+		(pin "2"
+			(uuid "6e5c9fe7-4334-477d-9b3e-045af0019b05")
+		)
+		(pin "3"
+			(uuid "567dc9fd-fb3a-44e5-ab64-c0038ffc5bc7")
+		)
+		(instances
+			(project ""
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 236.22 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa1766d7-e7a1-4afb-a72f-d34972dcad42")
+		(property "Reference" "SW36"
+			(at 236.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 236.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 236.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f63bc126-7bd5-4ddd-b50a-4290a7c87cf5")
+		)
+		(pin "4"
+			(uuid "c166df3a-5c83-4556-9472-8d651ca26d46")
+		)
+		(pin "2"
+			(uuid "39c8ebeb-5346-4582-8041-0fbb71d9f0f4")
+		)
+		(pin "3"
+			(uuid "ccdc3d45-736b-49eb-957d-43d03d379070")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 57.15 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd4efa05-b4c5-464f-a65b-c8d8a32b5d8a")
+		(property "Reference" "SW26"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 57.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 57.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9638502-2861-407d-bc40-fa3eba553701")
+		)
+		(pin "4"
+			(uuid "c6be4016-f70b-436e-bf61-d6a66e736e75")
+		)
+		(pin "2"
+			(uuid "ecd4ee6b-1ead-4e65-928e-907371cae175")
+		)
+		(pin "3"
+			(uuid "ca29e775-9e72-4d31-9119-2f59c0129bca")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_MEC_5G")
+		(at 165.1 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff5eb67a-200a-4a5e-aef2-672fff36e00c")
+		(property "Reference" "SW32"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5G"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89e81522-d120-4dc3-966a-613a072f750b")
+		)
+		(pin "4"
+			(uuid "1dce8d33-ab1b-4ea8-ad01-51dd7e5f1c06")
+		)
+		(pin "2"
+			(uuid "b202bf1b-59ac-42f7-97e5-333c09d1f7dc")
+		)
+		(pin "3"
+			(uuid "e0c1ac3d-c875-4a81-ad7d-8fd6502867cf")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860"
+					(reference "SW32")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
