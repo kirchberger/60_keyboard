@@ -1,4 +1,4 @@
-26772927655906620
+26778231337105070
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69320,6 +69320,27 @@ solder jumper open
 0
 3
 3
+Keyboard
+CherryMX_1.00u
+Cherry MX switch footprint. Size: 1.00u, Mount type: Plate, Using Kailh Socket: no, Stabilizer: n/a, Lighting: none
+CherryMX 1.00u
+0
+2
+2
+Keyboard
+CherryMX_1.50u
+Cherry MX switch footprint. Size: 1.50u, Mount type: Plate, Using Kailh Socket: no, Stabilizer: n/a, Lighting: none
+CherryMX 1.50u
+0
+2
+2
+Keyboard
+CherryMX_3.00u
+Cherry MX switch footprint. Size: 3.00u, Mount type: Plate, Using Kailh Socket: no, Stabilizer: Plate mounted, Lighting: none
+CherryMX 3.00u
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf

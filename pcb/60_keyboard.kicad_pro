@@ -613,6 +613,18 @@
     [
       "60f4ab9d-718b-428d-904c-5042759d3860",
       "Root"
+    ],
+    [
+      "a1e90319-dca8-49b6-9cdf-488365fdad23",
+      "power"
+    ],
+    [
+      "3066bddb-132c-4aee-b5b4-c4e24f799288",
+      "matrix"
+    ],
+    [
+      "a5dc5d45-cfa6-4235-a666-1339e0663470",
+      "micro"
     ]
   ],
   "text_variables": {}
