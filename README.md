@@ -16,12 +16,12 @@ Then ideally move the []\ keys so that they may be closer.
 
 # Hardware 
 
-Will be based on ESP32-S3
+Will be based on ESP32, and decided on the ESP-32-P4, since no network connectivity is required. (Could be updated in the future).
 
-Looking to make a 8x8 ish matrix depending on number of keys
+Looking to make a 12x5 ish matrix.
 
 Looking to use standard MX mechanical switch sockets for potential replacement in the future. It seems the mill max sockets are the best option.
 
-one programming usb interface and one for connection.
+One programming usb interface and one for connection.
 
 Also have a diode on each key so that ghosting is not an issue.
