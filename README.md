@@ -18,10 +18,10 @@ Then ideally move the []\ keys so that they may be closer.
 
 Will be based on ESP32, choosing the least expensive one in the JLPCB library with enough IO and RISC-V core. Choosing ESP32-C6. 
 
-Looking to make a 12x5 ish matrix.
+Looking to make a 12x5 matrix.
 
 Looking to use standard MX mechanical switch sockets for potential replacement in the future. It seems the mill max sockets are the best option.
 
-One programming usb interface and one for connection.
+One usbb interface.
 
 Also have a diode on each key so that ghosting is not an issue.
