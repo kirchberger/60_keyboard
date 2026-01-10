@@ -16,7 +16,7 @@ Then ideally move the []\ keys so that they may be closer.
 
 # Hardware 
 
-Will be based on ESP32, and decided on the ESP-32-P4, since no network connectivity is required. (Could be updated in the future).
+Will be based on ESP32, choosing the least expensive one in the JLPCB library with enough IO and RISC-V core. Choosing ESP32-C6. 
 
 Looking to make a 12x5 ish matrix.
 
