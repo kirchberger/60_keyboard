@@ -783,6 +783,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27) (xy 2.54 1.27) (xy 2.54 -1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_TVS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1318,22 +1468,70 @@
 		(uuid "b657d36e-541f-4879-b1b7-e15b86b3c96a")
 	)
 	(junction
+		(at 86.36 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dd5447e-1af6-43f5-8c20-9efce04c4046")
+	)
+	(junction
+		(at 96.52 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1089d372-6528-4122-948c-f5d71a5a2eae")
+	)
+	(junction
+		(at 64.77 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "161eba18-a0c9-4676-982a-8241d6248b08")
+	)
+	(junction
+		(at 105.41 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b2a1f8c-18b0-4619-8253-3c0be3e7e088")
+	)
+	(junction
 		(at 48.26 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f573e67-282b-4c44-94cc-28210168a576")
 	)
 	(junction
-		(at 142.24 44.45)
+		(at 50.8 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21ad5f17-0f5b-4e85-96b9-ee366edf7a27")
+	)
+	(junction
+		(at 187.96 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21dda468-4578-40d8-b9be-a46de56b07db")
 	)
 	(junction
-		(at 120.65 44.45)
+		(at 77.47 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "227c10ff-9e07-457b-a648-de755200dc05")
+	)
+	(junction
+		(at 96.52 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "350e7d81-6a98-418c-b9d4-9b8871b82461")
+	)
+	(junction
+		(at 166.37 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36f2c6e9-23b8-4afd-a22b-0766e1efbe4d")
+	)
+	(junction
+		(at 50.8 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cafb86c-34ad-4fe2-bc25-8660a77255fe")
 	)
 	(junction
 		(at 33.02 66.04)
@@ -1348,26 +1546,48 @@
 		(uuid "71e59560-14b2-43b0-aacd-e84dd961cae5")
 	)
 	(junction
-		(at 162.56 31.75)
+		(at 208.28 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "726ce331-7030-431e-bca2-899ebc798929")
 	)
 	(junction
-		(at 81.28 45.72)
+		(at 77.47 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8470dad5-3280-4b7f-8218-bb90c0e04ed4")
+		(uuid "7ebc4f9a-2937-4edb-9c4f-810f2a4d46da")
 	)
 	(junction
-		(at 120.65 31.75)
+		(at 114.3 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8609120e-a5e6-4010-a193-82ac83daff0e")
+	)
+	(junction
+		(at 64.77 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bfdf683-494f-43df-a41e-e517c728b630")
+	)
+	(junction
+		(at 166.37 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde2fbcc-3415-4f88-a710-3fae262a1a67")
 	)
 	(wire
 		(pts
-			(xy 154.94 31.75) (xy 162.56 31.75)
+			(xy 64.77 66.04) (xy 77.47 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0568243a-0399-4fb9-b14d-364f8b6b0c53")
+	)
+	(wire
+		(pts
+			(xy 200.66 26.67) (xy 208.28 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1377,13 +1597,33 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 31.75) (xy 120.65 31.75)
+			(xy 163.83 26.67) (xy 166.37 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0cabfdef-5bda-421a-9a34-161a0638ba80")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 64.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15fbdc9d-496e-4a45-b330-16f68be013f1")
+	)
+	(wire
+		(pts
+			(xy 114.3 66.04) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3d3052-8cf5-4f4f-af5a-03d01618e64d")
 	)
 	(wire
 		(pts
@@ -1397,7 +1637,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 41.91) (xy 120.65 44.45)
+			(xy 86.36 38.1) (xy 86.36 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25be3e11-e176-40e7-b00a-49b06a1a541a")
+	)
+	(wire
+		(pts
+			(xy 166.37 36.83) (xy 166.37 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1407,7 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 44.45) (xy 142.24 44.45)
+			(xy 166.37 39.37) (xy 187.96 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1417,7 +1667,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 44.45) (xy 162.56 44.45)
+			(xy 187.96 39.37) (xy 208.28 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1427,17 +1677,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 45.72) (xy 90.17 45.72)
+			(xy 64.77 40.64) (xy 68.58 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c1c5828-8dfc-47cb-8806-c9727cb09522")
+		(uuid "3a13199c-d6fe-4ab4-afec-8f9f193c4a95")
 	)
 	(wire
 		(pts
-			(xy 120.65 31.75) (xy 120.65 34.29)
+			(xy 166.37 26.67) (xy 166.37 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1447,17 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 27.94) (xy 54.61 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40fdb2f8-7f45-4c40-8de6-975c90fafbd8")
-	)
-	(wire
-		(pts
-			(xy 120.65 44.45) (xy 120.65 46.99)
+			(xy 166.37 39.37) (xy 166.37 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1467,7 +1707,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 45.72) (xy 54.61 45.72)
+			(xy 114.3 27.94) (xy 114.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c34db45-d95d-4d06-8a34-0dcd486617c6")
+	)
+	(wire
+		(pts
+			(xy 48.26 45.72) (xy 50.8 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1477,7 +1727,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 31.75) (xy 162.56 34.29)
+			(xy 105.41 33.02) (xy 96.52 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c87ae5b-9faa-4e06-8af4-5129090149d1")
+	)
+	(wire
+		(pts
+			(xy 208.28 26.67) (xy 208.28 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1487,13 +1747,63 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 45.72) (xy 90.17 66.04)
+			(xy 105.41 45.72) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711669ac-9bc1-47c5-afc7-c4c154adcebf")
+	)
+	(wire
+		(pts
+			(xy 48.26 27.94) (xy 114.3 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "741f7d73-2088-48c5-ac36-9a274f57fbfe")
+	)
+	(wire
+		(pts
+			(xy 77.47 45.72) (xy 77.47 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7509726f-78f3-43cd-a6eb-ed41242d5466")
+	)
+	(wire
+		(pts
+			(xy 86.36 35.56) (xy 77.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b536092-590b-45a7-bee6-b7324999ffbf")
+	)
+	(wire
+		(pts
+			(xy 96.52 45.72) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "92afe121-7121-48ef-a9f3-10f375fe4391")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.04) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a119664f-6983-4878-9028-c8a142777a4d")
 	)
 	(wire
 		(pts
@@ -1507,7 +1817,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 54.61 40.64)
+			(xy 105.41 38.1) (xy 105.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d2f945-aff6-4a87-8db1-1d7f83d58fbf")
+	)
+	(wire
+		(pts
+			(xy 48.26 40.64) (xy 64.77 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1517,7 +1837,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 33.02) (xy 81.28 33.02)
+			(xy 48.26 33.02) (xy 96.52 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1847,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 44.45) (xy 162.56 41.91)
+			(xy 208.28 39.37) (xy 208.28 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1537,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 26.67) (xy 162.56 31.75)
+			(xy 208.28 21.59) (xy 208.28 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1547,17 +1867,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 81.28 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2191433-13c8-46e9-8b99-30b9de57f5e0")
-	)
-	(wire
-		(pts
-			(xy 81.28 33.02) (xy 81.28 38.1)
+			(xy 96.52 33.02) (xy 96.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1877,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 35.56) (xy 71.12 38.1)
+			(xy 77.47 35.56) (xy 77.47 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1577,7 +1887,37 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 66.04) (xy 90.17 66.04)
+			(xy 114.3 27.94) (xy 120.65 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba3dd645-14df-4a2e-b303-f4f95fa84d2d")
+	)
+	(wire
+		(pts
+			(xy 50.8 55.88) (xy 50.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be3d6e03-9804-499a-a2f9-5e26ca7f2d3e")
+	)
+	(wire
+		(pts
+			(xy 86.36 45.72) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3aea029-c0d2-4d70-8296-0212655a9f04")
+	)
+	(wire
+		(pts
+			(xy 33.02 66.04) (xy 50.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1587,7 +1927,57 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 31.75) (xy 129.54 31.75)
+			(xy 105.41 66.04) (xy 96.52 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6cf7fbb-7fe0-4997-8901-071b4498be6e")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99649c1-64cd-491c-9e90-0d4bce5ded16")
+	)
+	(wire
+		(pts
+			(xy 50.8 45.72) (xy 54.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a32449-bf60-4caa-9588-d7faa8103954")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd549d38-6a22-4b57-8ba2-ddab0f19a337")
+	)
+	(wire
+		(pts
+			(xy 64.77 40.64) (xy 64.77 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2164874-bfa1-4769-aa9b-3dcf3fe7bf7e")
+	)
+	(wire
+		(pts
+			(xy 166.37 26.67) (xy 175.26 26.67)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +1987,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 35.56) (xy 71.12 35.56)
+			(xy 50.8 45.72) (xy 50.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2caabcc-e03a-43f6-8a39-87827e03670e")
+	)
+	(wire
+		(pts
+			(xy 48.26 35.56) (xy 77.47 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1605,9 +2005,19 @@
 		)
 		(uuid "f4f58ef0-a866-40f5-aeaa-be2e0685bca4")
 	)
+	(wire
+		(pts
+			(xy 50.8 66.04) (xy 64.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcf6ddfe-82db-4068-8067-51c9aaa4ca64")
+	)
 	(global_label "D-"
 		(shape input)
-		(at 54.61 40.64 0)
+		(at 68.58 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1617,7 +2027,7 @@
 		)
 		(uuid "634bc8e9-553b-4c06-9245-f40d888aca27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4376 40.64 0)
+			(at 74.4076 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +2039,7 @@
 	)
 	(global_label "Vin"
 		(shape input)
-		(at 118.11 31.75 180)
+		(at 163.83 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1639,7 +2049,7 @@
 		)
 		(uuid "6957197f-d660-41c6-92bf-0c572398b1e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.2824 31.75 0)
+			(at 158.0024 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1651,7 +2061,7 @@
 	)
 	(global_label "Vin"
 		(shape input)
-		(at 54.61 27.94 0)
+		(at 120.65 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1661,7 +2071,7 @@
 		)
 		(uuid "b5b16ad5-1f9a-49b5-b7b5-b432b26a5b66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.4376 27.94 0)
+			(at 126.4776 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +2105,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:XC6220B331MR")
-		(at 142.24 34.29 0)
+		(at 187.96 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1704,7 +2114,7 @@
 		(fields_autoplaced yes)
 		(uuid "04ad1242-4b3d-4144-acf7-58f81cc0fc69")
 		(property "Reference" "U2"
-			(at 142.24 24.13 0)
+			(at 187.96 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +2122,7 @@
 			)
 		)
 		(property "Value" "XC6220B331MR"
-			(at 142.24 26.67 0)
+			(at 187.96 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +2130,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 142.24 34.29 0)
+			(at 187.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +2139,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.torexsemi.com/file/xc6220/XC6220.pdf"
-			(at 161.29 59.69 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +2148,7 @@
 			)
 		)
 		(property "Description" "1A, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 142.24 34.29 0)
+			(at 187.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,17 +2181,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 162.56 38.1 0)
+		(lib_id "Device:D_TVS")
+		(at 105.41 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3443566c-fb8f-4c7d-ab16-5d433d180cd8")
-		(property "Reference" "C2"
-			(at 166.37 36.8299 0)
+		(uuid "05fe4796-9a3f-4a46-926f-d3ff6c77ab5e")
+		(property "Reference" "D2"
+			(at 107.95 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,8 +2199,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 166.37 39.3699 0)
+		(property "Value" "D_TVS"
+			(at 107.95 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,8 +2208,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 163.5252 41.91 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 105.41 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +2218,147 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 38.1 0)
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, TVS 5.5V"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4dddea6d-b5ec-403e-9d3b-4749b0eed809")
+		)
+		(pin "1"
+			(uuid "b0a71e65-1289-46e2-99e5-317bfa82b46b")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 114.3 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21915104-f206-486c-a4d8-705b3b9d7a4c")
+		(property "Reference" "D1"
+			(at 116.84 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 116.84 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, 5.5V TVS"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "819a0c46-32bb-4357-990f-6f8c72effa10")
+		)
+		(pin "1"
+			(uuid "d22933c5-457e-4907-8f34-95537123dd5d")
+		)
+		(instances
+			(project ""
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3443566c-fb8f-4c7d-ab16-5d433d180cd8")
+		(property "Reference" "C2"
+			(at 212.09 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 212.09 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 209.2452 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +2367,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 162.56 38.1 0)
+			(at 208.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +2392,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 162.56 26.67 0)
+		(at 208.28 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1851,7 +2401,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b1557b9-2827-4080-af7f-b97e40bf89f4")
 		(property "Reference" "#PWR02"
-			(at 162.56 30.48 0)
+			(at 208.28 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +2410,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 162.56 21.59 0)
+			(at 208.28 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +2418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 26.67 0)
+			(at 208.28 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +2427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 26.67 0)
+			(at 208.28 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1886,7 +2436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 26.67 0)
+			(at 208.28 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +2458,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 41.91 0)
+		(at 77.47 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1917,7 +2467,7 @@
 		(fields_autoplaced yes)
 		(uuid "6da90056-bb4a-4fbb-a3b6-06af4a76bda9")
 		(property "Reference" "R1"
-			(at 73.66 40.6399 0)
+			(at 80.01 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,7 +2476,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 73.66 43.1799 0)
+			(at 80.01 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +2485,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 69.342 41.91 90)
+			(at 75.692 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +2503,7 @@
 			)
 		)
 		(property "Description" "5.1K Resistor 0402"
-			(at 71.12 41.91 0)
+			(at 77.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,8 +2527,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_TVS")
+		(at 50.8 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "816b3da2-5719-4d2a-ba25-de7979d0b1ea")
+		(property "Reference" "D4"
+			(at 53.34 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 53.34 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, TVS 5.5V"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1771a74-6916-4841-a643-2f30e693c5c3")
+		)
+		(pin "1"
+			(uuid "5f8407c1-3fe9-4961-97a1-d458db5aeac2")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 120.65 46.99 0)
+		(at 166.37 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1987,7 +2607,7 @@
 		(fields_autoplaced yes)
 		(uuid "881b5a57-aef5-4fb5-a828-7c574264a8f5")
 		(property "Reference" "#PWR01"
-			(at 120.65 53.34 0)
+			(at 166.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2616,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 52.07 0)
+			(at 166.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,7 +2624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 46.99 0)
+			(at 166.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 46.99 0)
+			(at 166.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 46.99 0)
+			(at 166.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2730,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 38.1 0)
+		(at 166.37 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2119,7 +2739,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7ae041c-cae1-48ba-8e45-075ac4548b76")
 		(property "Reference" "C1"
-			(at 124.46 36.8299 0)
+			(at 170.18 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2748,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 124.46 39.3699 0)
+			(at 170.18 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2757,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 121.6152 41.91 0)
+			(at 167.3352 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2146,7 +2766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 38.1 0)
+			(at 166.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,7 +2775,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 38.1 0)
+			(at 166.37 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2907,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 41.91 0)
+		(at 96.52 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2296,7 +2916,7 @@
 		(fields_autoplaced yes)
 		(uuid "b18728ba-5c44-4adf-a762-ce12cc6abb10")
 		(property "Reference" "R2"
-			(at 83.82 40.6399 0)
+			(at 99.06 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2925,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 83.82 43.1799 0)
+			(at 99.06 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2934,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 79.502 41.91 90)
+			(at 94.742 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 41.91 0)
+			(at 96.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2332,7 +2952,7 @@
 			)
 		)
 		(property "Description" "5.1K Resistor 0402"
-			(at 81.28 41.91 0)
+			(at 96.52 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,6 +2970,146 @@
 			(project "60_keyboard"
 				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 86.36 41.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf0d97b7-a14c-4dc0-b891-16c69a9b0c17")
+		(property "Reference" "D3"
+			(at 88.9 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 88.9 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, TVS 5.5V"
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1ef7682-cc46-413b-a0f7-c3cc036969f5")
+		)
+		(pin "1"
+			(uuid "9d352d46-8f5b-4b05-b69e-9b41e1a760b2")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS")
+		(at 64.77 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1f780ba-dabb-4a61-b848-98b719db2afa")
+		(property "Reference" "D5"
+			(at 67.31 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D_TVS"
+			(at 67.31 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, TVS 5.5V"
+			(at 64.77 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d53442e-b25d-4cd9-806d-ec81a37ec9d3")
+		)
+		(pin "1"
+			(uuid "90414d42-1aa8-4fa9-9a81-9a38c2f4604b")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
+					(reference "D5")
 					(unit 1)
 				)
 			)

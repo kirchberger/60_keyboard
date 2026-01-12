@@ -2656,13 +2656,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 87.63) (xy 148.59 87.63)
+			(xy 162.56 90.17) (xy 165.1 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2f8d6166-2dbd-4f96-bc24-5270cdb007bd")
+		(uuid "3446ca6b-eae6-4b8e-b18b-ef0c38e0e6b3")
 	)
 	(wire
 		(pts
@@ -3056,6 +3056,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887af673-5575-4d8f-8bec-41aafccfe5f6")
+	)
+	(wire
+		(pts
 			(xy 54.61 115.57) (xy 54.61 120.65)
 		)
 		(stroke
@@ -3163,16 +3173,6 @@
 			(type default)
 		)
 		(uuid "a423ea78-b4fc-4247-99a1-01817f4212e6")
-	)
-	(wire
-		(pts
-			(xy 142.24 90.17) (xy 148.59 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9479475-c5be-4054-962b-5a68e682dc44")
 	)
 	(wire
 		(pts
@@ -3326,6 +3326,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 90.17) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad12955-3204-4c7c-887a-8bf48221b303")
+	)
+	(wire
+		(pts
 			(xy 142.24 62.23) (xy 142.24 64.77)
 		)
 		(stroke
@@ -3333,6 +3343,16 @@
 			(type default)
 		)
 		(uuid "dc0dd296-f682-49f9-8be5-3870d8222112")
+	)
+	(wire
+		(pts
+			(xy 152.4 87.63) (xy 165.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7a33aa-3eb2-42b7-b0fe-d01d0dca0646")
 	)
 	(wire
 		(pts
@@ -3438,7 +3458,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 148.59 90.17 0)
+		(at 165.1 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3448,7 +3468,7 @@
 		)
 		(uuid "0d5936ec-db70-43a8-8258-00d522bd9b9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.4176 90.17 0)
+			(at 170.9276 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4052,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 148.59 87.63 0)
+		(at 165.1 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4042,7 +4062,7 @@
 		)
 		(uuid "c6506677-080d-480c-a158-0023d962cac5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.4176 87.63 0)
+			(at 170.9276 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,6 +5372,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 148.59 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c0e0963-9b73-402b-8fcb-9e61e5810482")
+		(property "Reference" "R7"
+			(at 148.59 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 148.59 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 148.59 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98c8f020-da7b-4395-a4f1-2a7dcecf1363")
+		)
+		(pin "1"
+			(uuid "9ca55f38-2eb4-4475-aaf1-5c9b9065f7f5")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a5dc5d45-cfa6-4235-a666-1339e0663470"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 259.08 66.04 0)
 		(unit 1)
@@ -6531,6 +6618,73 @@
 			(project "60_keyboard"
 				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a5dc5d45-cfa6-4235-a666-1339e0663470"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e22b262c-9897-4435-bf37-3488ff937fea")
+		(property "Reference" "R8"
+			(at 158.496 92.964 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 158.496 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 158.75 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e1303bba-57ca-4956-bfc1-b39357c7af7b")
+		)
+		(pin "1"
+			(uuid "4e1cd161-69a6-4f6c-b7cb-137ebdc5b578")
+		)
+		(instances
+			(project "60_keyboard"
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a5dc5d45-cfa6-4235-a666-1339e0663470"
+					(reference "R8")
 					(unit 1)
 				)
 			)

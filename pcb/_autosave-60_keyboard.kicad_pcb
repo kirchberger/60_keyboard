@@ -34,6 +34,45 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
@@ -11170,7 +11209,7 @@
 		(property "Reference" "U1"
 			(at 0 -3.81 0)
 			(layer "F.SilkS")
-			(uuid "4e2e3eec-198d-4145-965e-ed41ca78cb7e")
+			(uuid "fb15ebb8-1161-437c-bd71-c398894db1ad")
 			(effects
 				(font
 					(size 1 1)
@@ -11181,7 +11220,7 @@
 		(property "Value" "ESP32-C6"
 			(at 9.525 3.81 0)
 			(layer "F.Fab")
-			(uuid "4d6e9966-03db-4256-b0fe-6ba3b702d417")
+			(uuid "62a1e94d-05a6-44da-b675-68c8266d33db")
 			(effects
 				(font
 					(size 1 1)
@@ -11193,7 +11232,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f941620-7301-454b-b178-31c4cdf90332")
+			(uuid "d76d31ed-461f-43e7-8f86-c82a50600ffa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11205,7 +11244,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9687759a-58ca-4aec-b148-dbf2aa7fa007")
+			(uuid "5ce591dc-8861-49e1-a359-96bde85f05ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37752,6 +37791,42 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "db5531ac-9224-48a3-a157-8e148d87d0dc")
+	)
+	(via
+		(at 20 105)
+		(size 5.5)
+		(drill 3.2)
+		(layers "F.Cu" "B.Cu")
+		(tenting none)
+		(net 0)
+		(uuid "059b2ca6-04fb-4784-9c6e-930e696e02c4")
+	)
+	(via
+		(at 257 105)
+		(size 5.5)
+		(drill 3.2)
+		(layers "F.Cu" "B.Cu")
+		(tenting none)
+		(net 0)
+		(uuid "3ded8760-74df-40cb-bd50-b15965674bbe")
+	)
+	(via
+		(at 257 15)
+		(size 5.5)
+		(drill 3.2)
+		(layers "F.Cu" "B.Cu")
+		(tenting none)
+		(net 0)
+		(uuid "cb740a56-5b65-4428-9c66-215afc76d96c")
+	)
+	(via
+		(at 20 15)
+		(size 5.5)
+		(drill 3.2)
+		(layers "F.Cu" "B.Cu")
+		(tenting none)
+		(net 0)
+		(uuid "eedffa85-8784-463d-8e90-7c2a7c4d4e04")
 	)
 	(segment
 		(start 250.29 19.42)

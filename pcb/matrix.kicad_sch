@@ -4395,7 +4395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:CherryMX_1.00u"
+		(property "Footprint" "Keyboard:CherryMX_3.00u"
 			(at 137.16 130.81 0)
 			(effects
 				(font
@@ -11970,7 +11970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Keyboard:CherryMX_3.00u"
+		(property "Footprint" "Keyboard:CherryMX_1.50u"
 			(at 211.582 68.834 0)
 			(effects
 				(font
