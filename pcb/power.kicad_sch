@@ -5,7 +5,7 @@
 	(uuid "e88edb8f-1325-4a52-8692-b9d1d0cd4d00")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(effects
 					(font
@@ -46,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -162,8 +162,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -364,7 +386,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -634,6 +656,42 @@
 						)
 					)
 					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1468,34 +1526,10 @@
 		(uuid "b657d36e-541f-4879-b1b7-e15b86b3c96a")
 	)
 	(junction
-		(at 86.36 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0dd5447e-1af6-43f5-8c20-9efce04c4046")
-	)
-	(junction
-		(at 96.52 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1089d372-6528-4122-948c-f5d71a5a2eae")
-	)
-	(junction
 		(at 64.77 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "161eba18-a0c9-4676-982a-8241d6248b08")
-	)
-	(junction
-		(at 105.41 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b2a1f8c-18b0-4619-8253-3c0be3e7e088")
-	)
-	(junction
-		(at 48.26 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f573e67-282b-4c44-94cc-28210168a576")
 	)
 	(junction
 		(at 50.8 66.04)
@@ -1534,16 +1568,10 @@
 		(uuid "3cafb86c-34ad-4fe2-bc25-8660a77255fe")
 	)
 	(junction
-		(at 33.02 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "640cea51-1d9f-4049-bc14-4b87e4037674")
-	)
-	(junction
 		(at 48.26 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71e59560-14b2-43b0-aacd-e84dd961cae5")
+		(uuid "696a49af-2d28-4118-b189-5df3d197f369")
 	)
 	(junction
 		(at 208.28 26.67)
@@ -1552,16 +1580,16 @@
 		(uuid "726ce331-7030-431e-bca2-899ebc798929")
 	)
 	(junction
-		(at 77.47 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ebc4f9a-2937-4edb-9c4f-810f2a4d46da")
-	)
-	(junction
 		(at 114.3 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8609120e-a5e6-4010-a193-82ac83daff0e")
+	)
+	(junction
+		(at 33.02 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8676d355-7592-490d-94ae-e7d2e6a616fa")
 	)
 	(junction
 		(at 64.77 66.04)
@@ -1574,6 +1602,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dde2fbcc-3415-4f88-a710-3fae262a1a67")
+	)
+	(junction
+		(at 48.26 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec480aa5-214d-4781-9a02-a044fa9407aa")
 	)
 	(wire
 		(pts
@@ -1617,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 66.04) (xy 105.41 66.04)
+			(xy 96.52 66.04) (xy 114.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1634,16 +1668,6 @@
 			(type default)
 		)
 		(uuid "2192959c-641f-415f-b4d2-56fd3ba491b7")
-	)
-	(wire
-		(pts
-			(xy 86.36 38.1) (xy 86.36 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25be3e11-e176-40e7-b00a-49b06a1a541a")
 	)
 	(wire
 		(pts
@@ -1727,16 +1751,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 33.02) (xy 96.52 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c87ae5b-9faa-4e06-8af4-5129090149d1")
-	)
-	(wire
-		(pts
 			(xy 208.28 26.67) (xy 208.28 29.21)
 		)
 		(stroke
@@ -1744,16 +1758,6 @@
 			(type default)
 		)
 		(uuid "6f77164d-a5b4-4f84-8209-52beadb89124")
-	)
-	(wire
-		(pts
-			(xy 105.41 45.72) (xy 105.41 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "711669ac-9bc1-47c5-afc7-c4c154adcebf")
 	)
 	(wire
 		(pts
@@ -1777,16 +1781,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 35.56) (xy 77.47 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b536092-590b-45a7-bee6-b7324999ffbf")
-	)
-	(wire
-		(pts
 			(xy 96.52 45.72) (xy 96.52 66.04)
 		)
 		(stroke
@@ -1797,16 +1791,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 66.04) (xy 96.52 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a119664f-6983-4878-9028-c8a142777a4d")
-	)
-	(wire
-		(pts
 			(xy 48.26 45.72) (xy 48.26 48.26)
 		)
 		(stroke
@@ -1814,16 +1798,6 @@
 			(type default)
 		)
 		(uuid "a6dd4ac0-0d3b-4f1c-bfce-a691b9d3e001")
-	)
-	(wire
-		(pts
-			(xy 105.41 38.1) (xy 105.41 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7d2f945-aff6-4a87-8db1-1d7f83d58fbf")
 	)
 	(wire
 		(pts
@@ -1907,16 +1881,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 86.36 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3aea029-c0d2-4d70-8296-0212655a9f04")
-	)
-	(wire
-		(pts
 			(xy 33.02 66.04) (xy 50.8 66.04)
 		)
 		(stroke
@@ -1927,17 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 66.04) (xy 96.52 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6cf7fbb-7fe0-4997-8901-071b4498be6e")
-	)
-	(wire
-		(pts
-			(xy 77.47 66.04) (xy 86.36 66.04)
+			(xy 77.47 66.04) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2182,76 +2136,6 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 105.41 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05fe4796-9a3f-4a46-926f-d3ff6c77ab5e")
-		(property "Reference" "D2"
-			(at 107.95 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 107.95 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, TVS 5.5V"
-			(at 105.41 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4dddea6d-b5ec-403e-9d3b-4749b0eed809")
-		)
-		(pin "1"
-			(uuid "b0a71e65-1289-46e2-99e5-317bfa82b46b")
-		)
-		(instances
-			(project "60_keyboard"
-				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
 		(at 114.3 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2278,7 +2162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 114.3 36.83 0)
 			(effects
 				(font
@@ -2385,6 +2269,119 @@
 			(project ""
 				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 33.02 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd9d5dd-5456-4813-8f8e-b6dd45f92d90")
+		(property "Reference" "J1"
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 33.02 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 36.83 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 33.02 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "90bcd4b0-bae9-43bc-b026-e3a2dc78a0ce")
+		)
+		(pin "A5"
+			(uuid "d442fa0c-7736-4082-9e20-d6ca0ae3bab6")
+		)
+		(pin "B1"
+			(uuid "92dbfcc3-dd0a-4e3d-91d0-3c45dc05f313")
+		)
+		(pin "A6"
+			(uuid "209ee7e9-3067-4f1a-b07d-00c84b74ebc8")
+		)
+		(pin "A9"
+			(uuid "68f5f91b-445a-4b0f-b78b-56cb67b6dee3")
+		)
+		(pin "A12"
+			(uuid "1d0cd7d0-bc39-45b3-88f5-687be1990f0b")
+		)
+		(pin "B8"
+			(uuid "b5b6e42b-a29c-4835-bbce-b100b20b8390")
+		)
+		(pin "B5"
+			(uuid "27082e8f-7478-4ea9-9d4a-5f1f0d929ec7")
+		)
+		(pin "B12"
+			(uuid "568a9dc1-6a04-476b-bfd3-c1f67dbccac6")
+		)
+		(pin "A4"
+			(uuid "691de45c-aef7-4213-bfde-9273ffda9478")
+		)
+		(pin "B7"
+			(uuid "b8e9aa15-b927-4385-a7ca-baf3848c9b8d")
+		)
+		(pin "A8"
+			(uuid "0928394c-ec21-407e-8013-4a577ef11d64")
+		)
+		(pin "B9"
+			(uuid "fdfd20ef-47a4-4c0d-b29d-bf32ecdfb9dd")
+		)
+		(pin "S1"
+			(uuid "4bc7271b-57b0-4af9-8137-c889067a5f4b")
+		)
+		(pin "A7"
+			(uuid "24ed6519-938a-45db-b07d-ae5646822003")
+		)
+		(pin "B4"
+			(uuid "dc714306-e9ae-412f-9b6e-10e51315d71e")
+		)
+		(pin "B6"
+			(uuid "e0ea8b8d-d734-4bd4-85a8-6660157ff1aa")
+		)
+		(instances
+			(project ""
+				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2554,7 +2551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -2799,113 +2796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 33.02 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae1a1095-e0ba-4cb7-ada1-ed28700d040a")
-		(property "Reference" "J2"
-			(at 33.02 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 33.02 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 33.02 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A7"
-			(uuid "d86c2201-1d5e-4cd1-bdad-ba86a03d885c")
-		)
-		(pin "A5"
-			(uuid "9e40a882-b853-485a-a4e1-389796727650")
-		)
-		(pin "A1"
-			(uuid "052a14ab-bc0a-4494-aac5-32f310c289ae")
-		)
-		(pin "S1"
-			(uuid "7135d21b-6f5a-479b-a51a-1b223d25b314")
-		)
-		(pin "A4"
-			(uuid "53e6cbc2-1fa5-416c-ae4e-e94f584aea13")
-		)
-		(pin "B7"
-			(uuid "293a9c10-cd86-48cb-bcbf-83f4491a436a")
-		)
-		(pin "B1"
-			(uuid "40c67e3a-434c-4af8-ae09-12085f702a17")
-		)
-		(pin "A12"
-			(uuid "86ac784b-5154-4eac-9e64-18c8248d2b9e")
-		)
-		(pin "A9"
-			(uuid "21b76962-540a-440a-8242-5236c226f420")
-		)
-		(pin "B9"
-			(uuid "bd5797c4-c1cb-4198-a5e3-464efce2381c")
-		)
-		(pin "B6"
-			(uuid "eea0bd06-9cda-4ab1-b9b5-c8efa2f8cb7f")
-		)
-		(pin "B5"
-			(uuid "c5000e80-eb5b-48aa-9bfa-68d146af9de1")
-		)
-		(pin "B12"
-			(uuid "3238d518-fe30-48ba-af26-e654b869674a")
-		)
-		(pin "A6"
-			(uuid "651a34ed-b181-429a-b830-1384c9ba5d15")
-		)
-		(pin "B4"
-			(uuid "b0fd2daa-06c3-40a9-8f49-43b9513e12d2")
-		)
-		(instances
-			(project ""
-				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 96.52 41.91 0)
 		(unit 1)
@@ -2977,76 +2867,6 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 86.36 41.91 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf0d97b7-a14c-4dc0-b891-16c69a9b0c17")
-		(property "Reference" "D3"
-			(at 88.9 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_TVS"
-			(at 88.9 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 86.36 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, TVS 5.5V"
-			(at 86.36 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1ef7682-cc46-413b-a0f7-c3cc036969f5")
-		)
-		(pin "1"
-			(uuid "9d352d46-8f5b-4b05-b69e-9b41e1a760b2")
-		)
-		(instances
-			(project "60_keyboard"
-				(path "/60f4ab9d-718b-428d-904c-5042759d3860/a1e90319-dca8-49b6-9cdf-488365fdad23"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS")
 		(at 64.77 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3073,7 +2893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 64.77 52.07 0)
 			(effects
 				(font
