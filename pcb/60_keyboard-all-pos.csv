@@ -14,7 +14,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C13","1u","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",228.750000,-31.500000,90.000000,bottom
 "C14","14p","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",232.250000,-38.000000,-90.000000,bottom
 "C15","14p","C_0402_1005Metric_Pad0.74x0.62mm_HandSolder",237.750000,-38.250000,90.000000,bottom
-"D1","D_TVS","D_SOD-323_HandSoldering",242.750000,-15.750000,90.000000,bottom
+"D1","D_TVS","D_SOD-323_HandSoldering",242.500000,-15.000000,90.000000,bottom
 "D4","D_TVS","D_SOD-323_HandSoldering",233.750000,-18.750000,180.000000,bottom
 "D5","D_TVS","D_SOD-323_HandSoldering",234.250000,-21.750000,180.000000,bottom
 "D55","BAV16W","D_SOD-123",29.350000,-29.500000,180.000000,bottom
@@ -74,7 +74,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J1","USB_C_Receptacle_USB2.0_16P","USB_C_Receptacle_HRO_TYPE-C-31-M-12",236.000000,-12.500000,0.000000,bottom
 "L1","2n","L_0402_1005Metric_Pad0.77x0.64mm_HandSolder",228.750000,-34.250000,-90.000000,bottom
 "L2","24n","L_0402_1005Metric_Pad0.77x0.64mm_HandSolder",231.900000,-36.055000,180.000000,bottom
-"R1","5.1K","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",242.250000,-18.500000,0.000000,bottom
+"R1","5.1K","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",244.000000,-16.000000,90.000000,bottom
 "R2","5.1K","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",233.250000,-20.250000,180.000000,bottom
 "R3","10k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",227.000000,-31.750000,0.000000,bottom
 "R4","10k","R_0402_1005Metric_Pad0.72x0.64mm_HandSolder",246.250000,-29.500000,90.000000,bottom
