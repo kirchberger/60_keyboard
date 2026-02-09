@@ -16,12 +16,16 @@ Then ideally move the []\ keys so that they may be closer.
 
 # Hardware 
 
-Will be based on ESP32, choosing the least expensive one in the JLPCB library with enough IO and RISC-V core. Choosing ESP32-C6. 
+Based on ESP32, choosing the least expensive one in the JLPCB library with enough IO and RISC-V core. Choosing ESP32-C6. 
 
-Looking to make a 12x5 matrix.
+Looking to make a 12x5 matrix for the keys after idea generation, this layout is in the layout_idea folder.
 
-Looking to use standard MX mechanical switch sockets for potential replacement in the future. It seems the mill max sockets are the best option.
+Looking to use standard MX mechanical switch sockets with hot swapable recepticles for potential replacement in the future. 
 
-One usbb interface.
+One usb interface.
 
 Also have a diode on each key so that ghosting is not an issue.
+
+# Work 
+
+Currently the board design is finished and it has been ordered.
