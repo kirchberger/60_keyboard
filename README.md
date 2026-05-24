@@ -28,4 +28,4 @@ Also have a diode on each key so that ghosting is not an issue.
 
 # Overview of the Repo 
 
-PCB is designed in the the PCB folder, the 3D CAD is designed in [OnShape](https://cad.onshape.com/documents/0a169c5ae1023445fae5efdd/w/4e7a7d406d370b73ca30bc79/e/bc0921f5439b5b5204013faf?renderMode=0&uiState=6a13294e8f64716ebe2b3083) with stl files and gcode files for an Ender 3 pro are in the 3dcad folder, and the firmware is in the firmware folder.
+PCB is designed in the the PCB folder, the 3D CAD is designed in [OnShape](https://cad.onshape.com/documents/0a169c5ae1023445fae5efdd/w/4e7a7d406d370b73ca30bc79/e/bc0921f5439b5b5204013faf?renderMode=0&uiState=6a13294e8f64716ebe2b3083) with stl files and gcode files for an Ender 3 pro in the 3dcad folder, and the firmware is in the firmware folder.
