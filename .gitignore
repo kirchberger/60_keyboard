@@ -1,0 +1,23 @@
+
+firmware/.pytest_cache/
+firmware/__pycache__/
+
+
+
+# esp-idf built binaries
+firmware/build/
+firmware/build_*_*/
+firmware/sdkconfig
+
+# idf-ci build run output
+firmware/build_summary_*.xml
+firmware/app_info_*.txt
+
+firmware/size_info_*.txt
+
+
+# pytest-embedded log folder
+firmware/pytest_embedded_log/
+
+# idf-component-manager output
+firmware/dependencies.lock
